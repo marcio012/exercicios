@@ -2,14 +2,14 @@ import UIKit
 
 var str = "Hello, playground"
 
-func fibonacci(of limit: Int){
+func calcularFibo(of limite: Int){
     var contagem = 0
     
     var proximo = 0
     var numero = 1
     var auxiliar = numero
     
-    while(contagem < limit) {
+    while(contagem < limite) {
         print(numero)
         numero += proximo
         proximo = auxiliar
@@ -18,4 +18,4 @@ func fibonacci(of limit: Int){
     }
 }
 
-fibonacci(of: 5)
+calcularFibo(of: 6)
